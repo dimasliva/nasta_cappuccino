@@ -1,0 +1,78 @@
+body {
+  background: linear-gradient(
+    180deg,
+    rgba(248, 244, 235, 0.98) 0%,
+    rgba(235, 197, 208, 0.98) 78%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.page {
+  position: relative;
+  width: 100%;
+}
+.page .items {
+  width: 99%;
+  display: grid;
+  grid-template-columns: repeat(4, 321px);
+  gap: 50px;
+  justify-content: end;
+  margin-top: 50px;
+}
+
+.page .items .item {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+.page .items .item .img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: filter 0.3s ease;
+}
+.page .items .item:hover .img {
+  filter: brightness(70%);
+}
+
+.page .items .item .btn {
+  background: #4b2324;
+  width: 100%;
+  border-radius: 31.53px;
+  border: 0;
+  color: #ebc5d0;
+  font-size: 21.02px;
+  margin-top: 10px;
+  height: 47px;
+  cursor: pointer;
+}
+.page .items .item .btn.buy {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.page .items .item .btn.buy .buy {
+  background: #ebc5d085;
+  border-radius: 30px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 14px;
+  padding-bottom: 4px;
+  color: #ffffff;
+  font-size: 16px;
+  margin-left: 2px;
+  cursor: pointer;
+}
+.page .items .item .btn.buy .count {
+  margin: 0 10px;
+}
+.page .items .item .btn.buy .count .number {
+  margin: 0 4px;
+}
+.page .items .item .btn.buy .count .plus,
+.page .items .item .btn.buy .count .minus {
+  cursor: pointer;
+}
