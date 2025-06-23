@@ -1,0 +1,58 @@
+.page {
+  width: 100%;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.page .bgPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.page .bgPage .bg {
+  width: 90%;
+}
+.page .bgPage .square {
+  width: 45%;
+  position: absolute;
+  bottom: -300px;
+}
+.page .btnMini {
+  width: 498px;
+  height: 56px;
+  background-color: #4b2324;
+  border-radius: 30px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+
+  margin-top: 50px;
+}
+.page .btns {
+  display: flex;
+  gap: 30px;
+  margin-top: 50px;
+  z-index: 1;
+}
+.page .btns .btnGreen {
+  color: #ebc5d0;
+  font-size: 24px;
+  font-weight: bold;
+  width: 267px;
+  background-color: #7a8450;
+  border-radius: 30px;
+  height: 56px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page .btns .btnGreen.github {
+  cursor: pointer;
+  width: 463px;
+}
