@@ -13,11 +13,13 @@
 }
 .page .bgPage .bg {
   width: 90%;
+  z-index: -2;
 }
 .page .bgPage .square {
-  width: 45%;
+  width: 830px;
   position: absolute;
   bottom: -300px;
+  z-index: -1;
 }
 .page .btnMini {
   width: 498px;
@@ -32,6 +34,7 @@
   font-weight: bold;
 
   margin-top: 50px;
+  z-index: -2;
 }
 .page .btns {
   display: flex;

@@ -21,6 +21,7 @@
   font-weight: bold;
 }
 .page .upgrade {
+  min-width: 337px;
   width: 337px;
   background-color: #4b2324;
   border-radius: 33px;
@@ -41,8 +42,7 @@
 .page .upgrade .info {
   width: 100%;
   background-color: #f8f4eb;
-  padding: 40px 20px;
-  padding-left: 50px;
+  padding: 30px 50px;
   border-radius: 32.89px;
   font-size: 20px;
 
@@ -74,5 +74,5 @@
 }
 
 .page .calendar_wrapper .calendar img {
-  height: 580px;
+  width: 755px;
 }
