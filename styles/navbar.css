@@ -19,6 +19,7 @@
 .page_wrapper {
   max-width: 1400px;
   margin: 0 auto;
+  height: 100%;
 }
 .navbar {
   display: flex;
