@@ -64,7 +64,9 @@ body {
   visibility: visible;
   transition: opacity 0.5s ease;
 }
-
+.page .content .concept img {
+  width: 700px;
+}
 .content,
 .book_wrapper {
   opacity: 1;
@@ -85,9 +87,6 @@ body {
   opacity: 1;
   pointer-events: auto;
 }
-.page .content img {
-  height: 720px;
-}
 
 .page .content img:hover {
   animation: pulse 1s infinite;
@@ -107,7 +106,7 @@ body {
   position: relative;
 }
 .page .book_wrapper .row .book img {
-  height: 493px;
+  height: 365px;
 }
 .page .book_wrapper .row .book .name {
   position: absolute;
@@ -124,11 +123,11 @@ body {
   font-weight: bold;
 }
 .page .book_wrapper .row .desc {
-  width: 302px;
+  width: 242px;
   border-radius: 23.51px;
   background: #f8f4eb;
   box-shadow: 0px 1.18px 4.7px 0px #00000040;
-  padding: 40px 30px;
+  padding: 20px 15px;
   margin-top: 20px;
   font-size: 24px;
   color: #4b2324;

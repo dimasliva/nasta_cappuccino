@@ -15,7 +15,7 @@ body {
 .page .items {
   width: 99%;
   display: grid;
-  grid-template-columns: repeat(4, 321px);
+  grid-template-columns: repeat(4, 16%);
   gap: 50px;
   justify-content: end;
   margin-top: 50px;

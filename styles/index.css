@@ -12,13 +12,13 @@
   position: relative;
 }
 .page .bgPage .bg {
-  width: 90%;
+  height: 443px;
   z-index: -2;
 }
 .page .bgPage .square {
-  width: 830px;
+  width: 685px;
   position: absolute;
-  bottom: -300px;
+  bottom: -270px;
   z-index: -1;
 }
 .page .btnMini {

@@ -75,10 +75,13 @@
   transition: max-height 0.3s ease, opacity 0.3s ease;
   z-index: 2;
 }
-.btn.active .dropdown {
+
+.btn.active .dropdown a {
   max-height: 500px;
   opacity: 1;
+  text-decoration: none;
 }
+
 .navbar .btn .dropdown a {
   color: #4b2324;
   text-decoration: none;
